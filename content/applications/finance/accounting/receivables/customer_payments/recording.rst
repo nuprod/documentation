@@ -33,7 +33,7 @@ access additional information, such as the related journal, by clicking on :guil
      payment.
    - When clicking on :guilabel:`Register payment`, you can select the amount to pay and make a
      partial or full payment.
-   - If your main bank account is set as oustanding account, and the payment is made in Odoo (not
+   - If your main bank account is set as outstanding account, and the payment is made in Odoo (not
      related to a bank statement), invoices and bills are directly registered in the status
      :guilabel:`Paid`.
    - If you unreconciled a payment, it still appears in your books but is no longer linked to the
