@@ -2,10 +2,27 @@
 Italy
 =====
 
-Allow the user to generate the EDI document for Italian invoicing.
+The company information is the first necessary configuration to ensure the proper setup of your
+**Accounting** database. To do so go to :menuselection:`Configuration --> Settings -->
+General Settings --> Update info`. In this menu make sure to at least have:
 
-This module allows the creation of the EDI documents and the communication with the SDICoop web
-service of FatturaPA to send or receive invoices and notifications.
+- the company address
+- :guilabel:`GSTIN` code
+- :guilabel:`Codice Fiscale`
+- :guilabel:`Tax System`
+- PEC address email
+
+PEC
+---
+The PEC email is a specific type of certified email providing a legal equivalent to the traditional
+register mail. The PEC email of the main company must be the same as the one registered by the
+Agenzia delle Entrate authorities.
+
+Invoicing in Odoo
+----------------
+
+In order to generate the EDI document for Italian invoicing. This module allows the creation of the
+EDI documents and the communication with the SDICoop web service of FatturaPA to send or receive invoices and notifications.
 
 .. warning::
    Once this module is installed, it's no longer possible to send invoices via :ref:`PEC mails
